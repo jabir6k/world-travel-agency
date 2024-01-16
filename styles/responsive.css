@@ -1,0 +1,26 @@
+@media screen  and ( max-width :600px)
+
+{
+    .header-section{
+       /* border: 2px solid red; */
+       flex-direction: column;
+       align-items: center;
+       width: 375px;
+       margin: 0 auto;
+       
+    }
+
+    .nav-container{
+        font-size: 22px;}
+
+     .nav-container img{
+            width: 28.724px;
+            object-fit: cover;
+            padding: 0 auto ;
+          }
+
+    .items-container{
+        /* flex-direction: column;
+       margin-left: 50px; */
+    }
+}
