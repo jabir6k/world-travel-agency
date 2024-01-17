@@ -4,6 +4,7 @@
 
 .header{
   background-color:  #FFF;;
+ 
 }
 
 .nav-container{
@@ -27,18 +28,19 @@
 }
 
 .header-section{
-    max-width: 1250px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
 }
 
 .items-container{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     width: 50%;
+    
     display: flex ;
-    justify-content: space-between ;
+    justify-content: space-around ;
     align-items: center;
-    font-size: 18px;
+    font-size: 30px;
     
 }
 .items-container a{
@@ -50,4 +52,21 @@
 .items-container  .home-button a{   
     color: #FF5400;
 }
+
+
  /* nav bar styles end here */
+
+ /* banner style starts here */
+
+ .banner-img{
+    max-width: 1200px;
+   align-items: center;
+   margin: 0 60px;
+   background-position: center;
+ }
+ /* max-width: 1140px;
+    margin: 0 auto;
+    background-image: url(../images/Banner\ Image.png);
+    height: 600px;
+    background-position: bottom center;
+    border-radius: 16px; */
