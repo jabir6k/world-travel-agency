@@ -13,12 +13,12 @@
     align-items: center;
     /* border: 2px solid green; */
     width: 50%;
+    background-repeat: no-repeat;
 }
 .nav-container img{
     width: 48px;
     object-fit: cover;
-    padding-right: 10px;
-}
+    padding-right: 10px;}   
 
 .nav-container{
     font-size: 36px;
@@ -34,7 +34,7 @@
 }
 
 .items-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 50%;
     
     display: flex ;
@@ -58,15 +58,35 @@
 
  /* banner style starts here */
 
- .banner-img{
-    max-width: 1200px;
-   align-items: center;
-   margin: 0 60px;
-   background-position: center;
+.banner-container{
+    position: relative;
+}
+ .banner-container img
+ { 
+   max-width: 1200px;
+   height: auto;
+   /* border: 2px solid green; */
+   margin: 0 auto;
+   padding-left: 60px;
  }
- /* max-width: 1140px;
-    margin: 0 auto;
-    background-image: url(../images/Banner\ Image.png);
-    height: 600px;
-    background-position: bottom center;
-    border-radius: 16px; */
+
+ .banner-text
+ {
+   position: absolute;
+   top: 25%;
+   color: #FFF;
+   padding: 0px 220px;
+}
+ .banner-text h3{
+   font-size: 60px;
+   text-transform: uppercase;
+   font-weight: bold;
+   margin: 0;
+   padding: 0 60px;
+   text-align: center;
+   /* margin-bottom: 30px 70px;
+   margin-left: 90px;
+   margin-right: 10px; */
+   
+
+ } 
